@@ -17,3 +17,15 @@ git config user.email "xyz@gmail.com"
 # To check git version or to verify git is installed properly
 
 git --version
+
+# To check latest status/changes of working directory
+
+git status
+
+# To check commits
+
+git log
+
+# If wrong repositary added as remote origin or we want to change then we can set-url
+
+git remote set-url origin "url"
